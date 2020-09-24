@@ -2,4 +2,4 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', 'PaganteController@index') -> name('s');
+Route::get('/', 'PaganteController@index') -> name('index');
