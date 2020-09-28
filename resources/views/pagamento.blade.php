@@ -6,6 +6,10 @@
     Pagamento: <br>
     Status: {{ $pagamento -> status }}; Price: {{ $pagamento -> price }}
   </h1>
+  <ul>
+    <li>Prenotazione_id: {{ $pagamento -> prenotazione_id}}</li>
+    <li>Pagante_id: {{ $pagamento -> pagante_id}}</li>
+  </ul>
 
   <div class="update-delete">
     <h3 class="update">
